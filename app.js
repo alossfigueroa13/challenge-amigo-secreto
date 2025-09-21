@@ -39,4 +39,23 @@ function mostrarLista() {
 }
 
 
+function sortearAmigo() {
+    const resultado = document.getElementById("resultado");
+    const lista = document.getElementById("listaAmigos")
 
+    if (amigos.length === 0) {
+        alert("La lista está vacía. Agrega al menos un nombre.");
+        return
+
+    }
+
+    const indice = Math.floor(Math.random() * amigos.length);
+    const amigoSecreto = amigos[indice];
+
+    resultado.innerHTML = `<li> El amigo secreto es: <strong>${amigoSecreto}</strong></li>`;
+
+    lista.innerHTML = "";
+
+
+
+}
