@@ -34,6 +34,9 @@ function mostrarLista() {
         const li = document.createElement("li");
         li.textContent = amigos[i];
         lista.appendChild(li);
-        
+
     }
 }
+
+
+
