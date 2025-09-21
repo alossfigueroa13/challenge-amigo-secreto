@@ -1,8 +1,8 @@
-# 🎁 Amigo Secreto
+#  Amigo Secreto
 
 Aplicación web simple para organizar un sorteo de **amigo secreto**.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 - Agregar nombres a una lista de amigos.
 - Validación de entradas (no vacías y sin duplicados).
 - Visualización automática de la lista de amigos en pantalla.
